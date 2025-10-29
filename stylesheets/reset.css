@@ -1,0 +1,17 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #FEF9EF;
+  font-family: "IBM Plex Mono", monospace;
+  color: #0b4b5b;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;                    /* Chrome/Safari/новый Edge */
+  height: 0;
+  display: none;
+}
+

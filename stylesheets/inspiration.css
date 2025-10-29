@@ -1,0 +1,64 @@
+
+
+
+.inspiration {
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.inspiration-bg {
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inspiration-bg img {
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.inspiration-notice {
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  position: absolute;
+  left: 0;
+}
+
+
+.inspiration-title {
+  padding: 1vw;
+  width: 30vw;
+  text-align: center;
+  background: #FFCB77;
+  color: #FE6D73;
+  border-radius: 0 1vw 1vw 0;
+  font-size: 3.5vw;
+  margin: 0;
+}
+
+
+.inspiration-p {
+  color: #FE6D73;
+  z-index: 0;
+  font-size: 2.1vw;
+  width: 39vw;
+  position: absolute;
+  left: 5vw;
+  top: 8vw;
+}
+
+.inspiration p {
+  width: 30vw;
+}
+

@@ -1,0 +1,99 @@
+
+
+
+
+.composition {
+  margin: 4vw;
+  position: relative;
+  width: 92vw;
+  height: 40vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.composition-bg {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.composition-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.composition img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: contain;
+  right: 0;
+  z-index: 0;
+}
+
+
+.composition-notice {
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  position: absolute;
+  right: 1.3vw;
+}
+
+
+.composition-title {
+  padding: 1vw;
+  width: 30vw;
+  text-align: center;
+  background: #FFCB77;
+  color: #FE6D73;
+  border-radius: 0 0.8vw 0 1vw;
+  font-size: 3.5vw;
+  margin: 0;
+}
+
+
+.composition-p {
+  color: #FEF9EF;
+  z-index: 0;
+  font-size: 2.1vw;
+  width: 39vw;
+  position: absolute;
+  right: 2vw;
+  top: 8vw;
+}
+
+.composition-p p {
+  width: 31vw;
+  margin-bottom: 5vw;
+}
+
+
+.composition-vid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 50%;
+  height: 44%;
+  color: #227C9D;
+}
+
+
+.composition-yiu {
+  position: absolute;
+  top: 56%;
+  left: 0;
+  z-index: 1;
+  width: 50%;
+  height: 44%;
+  color: #227C9D;
+}

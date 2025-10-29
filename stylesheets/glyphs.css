@@ -1,0 +1,55 @@
+
+
+
+.glyphs {
+  margin-top: 3vw;
+  position: relative;
+  width: 100%;
+  height: 50vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.glyphs-layout {
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.glyphs-layout img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.glyphs-notice {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  margin-top: 2vw;
+}
+
+.glyphs-title {
+  padding: 1.75vw 5vw 1.75vw 0;
+  width: 30vw;
+  text-align: center;
+  background: #FE6D73;
+  color: #FFCB77;
+  border-radius: 1vw 0 0 1vw;
+  margin: 3vw 0 0 0;
+  font-size: 3.5vw;
+}
+
+
+.glyphs-p {
+  position: absolute;
+  bottom: 3vw;
+  left: 8vw;
+  width: 22vw;
+  font-size: 2.5vw;
+  color: #227C9D;
+}

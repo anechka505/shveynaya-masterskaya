@@ -1,0 +1,83 @@
+
+
+
+.availability {
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+
+.availability-bg {
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  justify-content: flex-end;
+  right: 6vw;
+  top: 4vw;
+}
+
+.availability-bg img {
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.availability-Marina {
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  justify-content: flex-start;
+  left: 4vw;
+  bottom: 0;
+}
+
+.availability-Marina img {
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.availability-notice {
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  position: absolute;
+  left: 0;
+}
+
+
+.availability-title {
+  padding: 1vw;
+  width: 30vw;
+  text-align: center;
+  background: #FFCB77;
+  color: #FE6D73;
+  border-radius: 0 1vw 1vw 0;
+  font-size: 3.5vw;
+  margin: 0;
+}
+
+
+.availability-p {
+  color: #FE6D73;
+  z-index: 0;
+  font-size: 2.5vw;
+  width: 35vw;
+  position: absolute;
+  right: 16vw;
+  top: 12vw;
+}
+
+.availability p {
+  width: 35vw;
+}

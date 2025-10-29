@@ -1,0 +1,66 @@
+
+
+
+.clarity {
+  margin-top: 3vw;
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.clarity-layout {
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.clarity-layout img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.clarity-title {
+  padding: 1.75vw 5vw 1.75vw 0;
+  width: 30vw;
+  text-align: center;
+  background: #FE6D73;
+  color: #FFCB77;
+  border-radius: 1vw 0 0 1vw;
+  margin: 3vw 0 0 0;
+  font-size: 3.5vw;
+  z-index: 1;
+}
+
+
+.clarity-notice {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.clarity-1 {
+  position: absolute;
+  top: 6vw;
+  left: 13vw;
+  width: 22vw;
+  font-size: 2vw;
+  color: #FE6D73;
+}
+
+.clarity-2 {
+  position: absolute;
+  bottom: 2vw;
+  left: 24vw;
+  width: 28vw;
+  font-size: 2vw;
+  color: #FE6D73;
+  text-align: right;
+}
+
